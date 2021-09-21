@@ -1,0 +1,135 @@
+body,p,span{
+    font-family: 'Roboto', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6,a,{
+    
+    font-family: 'Rubik', sans-serif;
+}
+/* default css */
+
+.main-header .container-fluid{
+    max-width: 1480px;
+}
+.slider-section .container-fluid{
+    max-width: 1480px;
+}
+body .btn-primary{
+    background-color:#e73e3e !important;
+    border-color:#e73e3e ;
+    padding: 10px 40px ;
+    font-size: 18px;
+
+    position: relative;
+    z-index: 1;
+}
+body .btn-primary::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #111;
+    border-color: #111;
+
+    z-index: -1;
+    transition: .3s;
+}
+body .btn-primary:hover::after{
+    width: 100%;
+}
+body .btn-primary:hover{
+    background-color: #111;
+}
+ul.our-primary-menu{}
+ul.our-primary-menu li{}
+
+/* dropdown menu */
+ul.our-primary-menu li{
+    position: relative;
+}
+ul.our-primary-menu li ul {
+    position: absolute;
+    width: 300px;
+    left: 0;
+    top: 160%;
+    background: #fafafa;
+    list-style: none;
+    padding-left:10px ;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+ul.our-primary-menu li ul li {
+    flex-direction: column;
+}
+ul.our-primary-menu li ul li a{}
+ul.our-primary-menu li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #111;
+    font-weight: 500;
+}
+ul.our-primary-menu li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.header-info{}
+.header-search{
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+    border-right: 1px solid #ddd;
+}
+.header-call{
+    width: 220px;
+}
+/* .header-call-icon{} */
+.header-call-icon span{
+    font-size: 33px;
+    color: #e73e3e;
+}
+.header-call-info{}
+.header-call-info a{
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+    font-size: 18px;
+}
+.header-call-info span{
+    color: #606060;
+}
+.header-button a{
+    background-color:#e73e3e;
+    border: none;
+}
+
+/* slider / banner section */
+.slider-section{
+    background: url(./img/main-banner2.jpg) no-repeat top center;
+    background-size:cover;
+}
+.slider-content-wrap{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.slider-content{}
+.slider-content h6{
+    color: #e73e3e;
+}
+.slider-content h1{}
+.slider-content p{}
+.header-social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
