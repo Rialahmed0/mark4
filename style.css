@@ -181,23 +181,24 @@ ul.our-primary-menu li:hover ul{
 
 
 .about-section {}
-.about-section h6{
+
+.finix-text h6{
     color: #e73e3e;
     font-size: 16px;
     font-weight: 400;
 }
-.about-section h2{
+.finix-text h2{
     font-size: 40px;
 }
-.about-section p{
+.finix-text p{
     font-size: 18px;
     color: #606060;
 }
-.about-section strong{
+.finix-text strong{
     color: #606060;
     font-size: 20px;
 }
-.about-section ul{
+.finix-text ul{
     color: #606060;
     list-style: none;
 }
@@ -206,9 +207,80 @@ ul.our-primary-menu li:hover ul{
     margin-left: -17px;
     
 }
-.about-section span{
+.finix-text span{
     margin-right: 10px;
     margin-left: -17px;
     font-size: 20px;
     color: #e73e3e;
+}
+ .bg{
+    background-color: #f9fafb;
+}
+.features-item{
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
+}
+.features-item:hover{
+    transform: translateY(-18px);
+}
+.features-item::before{
+    content: "";
+    position: absolute;
+    top: -135px;
+    right: 0;
+    left: 0;
+    margin:auto ;
+    width: 90%;
+    height: 70%;
+    background: #fdebeb;
+    border-radius: 50%;
+}
+.features-item .ft-icon {
+    position: relative;
+    z-index: 1;
+}
+.features-item .ft-icon i{
+    color: #e73e3e;
+    font-size: 32px;
+    background-color: #fff;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+}
+.features-item:hover .ft-icon i{
+    color:#fff ;
+    background-color: #e73e3e ;
+    transition: .5s;
+}
+
+.ft-icon{ 
+
+}
+.mtop4{
+    margin-top: -30px;
+}
+.ft-icon h3{}
+.ft-icon p{}
+
+.finix-text{
+    position: relative;
+}
+.paly-animation-btn{
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 60px;
+    text-align: center;
+    line-height: 90px;
+    color: #e73e3e;
+    border-radius: 50%;
+    position: absolute;
+    right: 40%;
+    bottom: 8%;
 }
