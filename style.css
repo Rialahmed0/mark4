@@ -125,11 +125,90 @@ ul.our-primary-menu li:hover ul{
 .slider-content h6{
     color: #e73e3e;
 }
-.slider-content h1{}
-.slider-content p{}
+.slider-content h1{
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.slider-content p{
+    font-weight: 400;
+    color: #606060;
+    font-size: 20px;
+}
 .header-social {
     position: absolute;
     bottom: 0;
     left: 0;
 }
+.header-social ul{
+    list-style: none;
+    padding-left: 0 ;
 
+}
+.header-social ul li{}
+.header-social ul li span{
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+}
+.header-social ul li spana::after{
+    content: "";
+    height:1px;
+    background: #111;
+    width: 35px;
+    position: absolute;
+    right: -45px;
+    top: 50%;
+
+}
+.header-social ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 14px;
+    color: #111;
+    font-size: 19px;
+}
+.logo-section{
+    border-bottom: 1px solid #ddd;
+}
+.logo-section ul{
+    list-style: none;
+    padding-left: 0;
+}
+.logo-section ul li{}
+
+
+.about-section {}
+.about-section h6{
+    color: #e73e3e;
+    font-size: 16px;
+    font-weight: 400;
+}
+.about-section h2{
+    font-size: 40px;
+}
+.about-section p{
+    font-size: 18px;
+    color: #606060;
+}
+.about-section strong{
+    color: #606060;
+    font-size: 20px;
+}
+.about-section ul{
+    color: #606060;
+    list-style: none;
+}
+.about-section ul li {
+    color: #606060;
+    margin-left: -17px;
+    
+}
+.about-section span{
+    margin-right: 10px;
+    margin-left: -17px;
+    font-size: 20px;
+    color: #e73e3e;
+}
