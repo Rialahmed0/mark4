@@ -286,3 +286,130 @@ ul.our-primary-menu li:hover ul{
     right: 40%;
     bottom: 8%;
 }
+
+/* apply now section */
+
+.apply-now-section{}
+.apply-now-text{}
+.step-timeline {}
+.step-timeline ul {
+    list-style: none;
+    position: relative;
+    padding-left: 60px;
+}
+.step-timeline ul::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 1px;
+    background: #e73a3e;
+    height: calc(100% - 100px);
+}
+.step-timeline ul li {
+    margin-bottom: 25px;
+    position: relative;
+}
+.step-timeline ul li::before {
+	content: attr(data-counter);
+	position: absolute;
+	left: -65px;
+	top: 0;
+	height: 40px;
+	width: 40px;
+	background: #f9fafb;
+	border: 1px solid #e73a3e;
+	border-radius: 50%;
+	line-height: 40px;
+	text-align: center;
+}
+.step-timeline ul li strong{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    color: #111;
+}
+.step-timeline ul li p{
+    color: #606060;
+}
+.calculate-rate{
+    background: #fdebeb;
+    padding: 50px;
+}
+.calculate-rate .finix-text h6{
+    /* color: #606060; */
+    font-weight: 500;
+}
+.call-to-action-bg{
+    background: #e73a3e;
+    color: #fff;
+    padding: 60px;
+    padding-bottom: 40px;
+    border-radius: 6px;
+}
+.call-to-action-bg h2{
+    font-size: 40px;
+    font-weight: 400;
+    border-right: 1px solid #ddd;
+}
+.call-to-action-phone{
+    margin-top: 18px;
+}
+.call-to-action-phone span{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    color: #e73a3e;
+    font-size: 32px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    margin-right: 30px;
+}
+.call-to-action-phone a{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    font-size: 43px;
+}
+/*  Our Comapny Values Section  */
+.company-values-text{}
+.values-item {
+    margin-bottom: 10px;
+}
+.values-item .value-icon {
+    font-size: 39px;
+    color: #e73a3e;
+    margin-right: 30px;
+}
+.value-texts{}
+.value-texts h3{}
+.value-texts p{
+    color: #606060;
+}
+.our-company-img {
+    text-align: right;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
